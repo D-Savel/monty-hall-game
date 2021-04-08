@@ -1,0 +1,43 @@
+Arguments: 
+  /home/savel/.nvm/versions/node/v15.9.0/bin/node /home/savel/.nvm/versions/node/v15.9.0/bin/yarn add readline-Sync
+
+PATH: 
+  /home/savel/.nvm/versions/node/v15.9.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.9.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/readline-Sync: Not found
+      at Request.params.callback [as _callback] (/home/savel/.nvm/versions/node/v15.9.0/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/home/savel/.nvm/versions/node/v15.9.0/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (node:events:378:20)
+      at Request.<anonymous> (/home/savel/.nvm/versions/node/v15.9.0/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (node:events:378:20)
+      at IncomingMessage.<anonymous> (/home/savel/.nvm/versions/node/v15.9.0/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (node:events:484:28)
+      at IncomingMessage.emit (node:events:390:22)
+      at endReadableNT (node:internal/streams/readable:1307:12)
+      at processTicksAndRejections (node:internal/process/task_queues:81:21)
+
+npm manifest: 
+  {
+    "name": "monty-hall-game",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:D-Savel/monty-hall-game.git",
+    "author": "D-Savel <dad.savel@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

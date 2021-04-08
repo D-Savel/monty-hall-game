@@ -1,0 +1,13 @@
+{
+  "name": "monty-hall-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:D-Savel/monty-hall-game.git",
+  "author": "D-Savel <dad.savel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "crypto": "^1.0.1",
+    "readline-sync": "^1.4.10"
+  }
+}
