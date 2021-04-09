@@ -16,8 +16,12 @@ for (const el of gates) {
 }
 
 console.clear()
+
+/*Test
 console.log(gates);
 console.log(carGateNumber);
+*/
+
 let playerName = readlineSync.question('Entrez votre nom :')
 console.log(`${closeGate[0]}${closeGate[1]}${closeGate[2]}`)
 do {
